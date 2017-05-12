@@ -1,0 +1,10 @@
+﻿@{
+    ViewData["Title"] = "Projects";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@foreach(var project in Model)
+    {
+        <h2>@project.name</h2>
+        <a href="https://github.com/Rafeekey/'@project.name'">GitHub Link To Project</a>
+    }

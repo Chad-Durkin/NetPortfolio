@@ -15,6 +15,10 @@ namespace Portfolio.Controllers
         // GET: /<controller>/
         public IActionResult Index()
         {
+            return View();
+        }
+        public IActionResult Project()
+        {
             var projectList = Projects.GetProjects();
             return View(projectList);
         }
