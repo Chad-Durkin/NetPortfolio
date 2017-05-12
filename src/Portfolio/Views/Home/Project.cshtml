@@ -5,6 +5,11 @@
 
 @foreach(var project in Model)
     {
+        @if(project.stargazer_count >= 1)
+        {
+
         <h2>@project.name</h2>
-        <a href="https://github.com/Rafeekey/'@project.name'">GitHub Link To Project</a>
+        <a href="@project.html_url">GitHub Link To Project</a>
+
+        }
     }
