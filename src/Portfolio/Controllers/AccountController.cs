@@ -1,14 +1,14 @@
 ﻿using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using GameStart.Models;
+using Portfolio.Models;
 using Microsoft.AspNetCore.Identity;
-using GameStart.ViewModels;
+using Portfolio.ViewModels;
 using System.Linq;
 
 
 // For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
 
-namespace GameStart.Controllers
+namespace Portfolio.Controllers
 {
     public class AccountController : Controller
     {
@@ -73,11 +73,6 @@ namespace GameStart.Controllers
             {
                 return View();
             }
-        }
-
-        public IActionResult Management()
-        {
-            return View(_db.Games.Where(g => g.UserName == User.Identity.Name).ToList());
         }
     }
 }

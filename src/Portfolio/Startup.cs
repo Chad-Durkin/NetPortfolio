@@ -13,7 +13,7 @@ using Microsoft.EntityFrameworkCore;
 using Portfolio.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
-namespace GameStart
+namespace Portfolio
 {
     public class Startup
     {

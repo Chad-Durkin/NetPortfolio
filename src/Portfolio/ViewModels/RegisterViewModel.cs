@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
 
-namespace GameStart.ViewModels
+namespace Portfolio.ViewModels
 {
     public class RegisterViewModel
     {
@@ -23,3 +23,4 @@ namespace GameStart.ViewModels
         [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
         public string ConfirmPassword { get; set; }
     }
+}
