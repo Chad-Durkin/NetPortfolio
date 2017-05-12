@@ -214,5 +214,7 @@
 "C:\Users\chadd\Desktop\Portfolio\src\Portfolio\Migrations\ApplicationDbContextModelSnapshot.cs"
 "C:\Users\chadd\Desktop\Portfolio\src\Portfolio\Models\ApplicationDbContext.cs"
 "C:\Users\chadd\Desktop\Portfolio\src\Portfolio\Models\ApplicationUser.cs"
+"C:\Users\chadd\Desktop\Portfolio\src\Portfolio\Models\EnvironmentVariables.cs"
+"C:\Users\chadd\Desktop\Portfolio\src\Portfolio\Models\Projects.cs"
 "C:\Users\chadd\Desktop\Portfolio\src\Portfolio\ViewModels\LoginViewModel.cs"
 "C:\Users\chadd\Desktop\Portfolio\src\Portfolio\ViewModels\RegisterViewModel.cs"
