@@ -2,10 +2,14 @@
     ViewData["Title"] = "Projects";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
-@foreach(var project in Model)
+<div class="panel-group">
+    @foreach (var project in Model)
     {
-        <h2>@project.name</h2>
-        <a href="@project.html_url">GitHub Link To Project</a>
-
+        <div class="panel panel-default projectList">
+            <div class="panel-body projectDisplay">
+                <h2>@project.name</h2>
+                <a href="@project.html_url">GitHub Link To Project</a>
+            </div>
+        </div>
     }
+</div>
