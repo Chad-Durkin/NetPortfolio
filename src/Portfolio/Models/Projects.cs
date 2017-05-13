@@ -16,7 +16,7 @@ namespace Portfolio.Models
         public static JArray GetProjects()
         {
             var client = new RestClient("https://api.github.com");
-            var request = new RestRequest("/users/" + EnvironmentVariables.UserName + "/repos", Method.GET);
+            var request = new RestRequest("/users/" + EnvironmentVariables.UserName + "/starred", Method.GET);
             request.AddHeader("Accept", "application / vnd.github.v3 + json");
             request.AddHeader("User-Agent", EnvironmentVariables.UserName);
 
