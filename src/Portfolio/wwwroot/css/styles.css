@@ -4,3 +4,14 @@
 projectDisplay {
 
 }
+
+.panel-body {
+    min-height: 150px;
+    max-height: 150px;
+    max-width: 350px;
+    min-height: 350px;
+}
+
+.panel {
+    width: 500px;
+}

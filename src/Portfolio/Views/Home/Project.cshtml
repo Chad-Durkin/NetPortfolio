@@ -6,10 +6,11 @@
     @foreach (var project in Model)
     {
         <div class="panel panel-default projectList">
-            <div class="panel-body projectDisplay">
-                <h2>@project.name</h2>
-                <a href="@project.html_url">GitHub Link To Project</a>
-            </div>
+            <div class="panel-header"><h2><strong>@project.name</strong></h2></div>
+                <div class="panel-body projectDisplay">
+                    <h3>@project.description</h3>
+                    <a href="@project.html_url">GitHub Link To Project</a>
+                </div>
         </div>
     }
 </div>
