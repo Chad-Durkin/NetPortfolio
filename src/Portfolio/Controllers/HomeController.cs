@@ -30,9 +30,9 @@ namespace Portfolio.Controllers
         [HttpPost]
         public IActionResult Index(Guest newGuest)
         {
-            _db.Guest.Add(newGuest);
+            _db.Guests.Add(newGuest);
             _db.SaveChanges();
-            return View();
+            return RedirectToAction("Project");
         }
         public IActionResult Project()
         {

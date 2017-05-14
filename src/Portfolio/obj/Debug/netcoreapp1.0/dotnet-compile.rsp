@@ -213,12 +213,13 @@ C:\Users\chadd\Desktop\Portfolio\src\Portfolio\Program.cs
 C:\Users\chadd\Desktop\Portfolio\src\Portfolio\Startup.cs
 C:\Users\chadd\Desktop\Portfolio\src\Portfolio\Controllers\AccountController.cs
 C:\Users\chadd\Desktop\Portfolio\src\Portfolio\Controllers\HomeController.cs
-C:\Users\chadd\Desktop\Portfolio\src\Portfolio\Migrations\20170512214913_Initial.cs
-C:\Users\chadd\Desktop\Portfolio\src\Portfolio\Migrations\20170512214913_Initial.Designer.cs
+C:\Users\chadd\Desktop\Portfolio\src\Portfolio\Migrations\20170514215235_Initials.cs
+C:\Users\chadd\Desktop\Portfolio\src\Portfolio\Migrations\20170514215235_Initials.Designer.cs
 C:\Users\chadd\Desktop\Portfolio\src\Portfolio\Migrations\ApplicationDbContextModelSnapshot.cs
 C:\Users\chadd\Desktop\Portfolio\src\Portfolio\Models\ApplicationDbContext.cs
 C:\Users\chadd\Desktop\Portfolio\src\Portfolio\Models\ApplicationUser.cs
 C:\Users\chadd\Desktop\Portfolio\src\Portfolio\Models\EnvironmentVariables.cs
+C:\Users\chadd\Desktop\Portfolio\src\Portfolio\Models\Guest.cs
 C:\Users\chadd\Desktop\Portfolio\src\Portfolio\Models\Projects.cs
 C:\Users\chadd\Desktop\Portfolio\src\Portfolio\ViewModels\LoginViewModel.cs
 C:\Users\chadd\Desktop\Portfolio\src\Portfolio\ViewModels\RegisterViewModel.cs

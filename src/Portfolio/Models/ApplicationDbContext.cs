@@ -23,5 +23,6 @@ namespace Portfolio.Models
             base.OnModelCreating(builder);
         }
 
+        public virtual DbSet<Guest> Guests { get; set; }
     }
 }
