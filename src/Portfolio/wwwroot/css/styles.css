@@ -1,8 +1,8 @@
 ﻿body {
+    background-color: azure;
 }
 
-projectDisplay {
-
+projectList {
 }
 
 .panel-body {
@@ -14,4 +14,23 @@ projectDisplay {
 
 .panel {
     width: 500px;
+    padding-left: 20px;
+    background-color: dimgray;
+    color: white;
+}
+
+.navSelect {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.githubLink {
+    color: white;
+}
+
+.aboutBody {
+}
+
+.aboutTitle {
+    text-align: center;
 }

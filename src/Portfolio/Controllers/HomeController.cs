@@ -12,15 +12,36 @@ namespace Portfolio.Controllers
 {
     public class HomeController : Controller
     {
+        private readonly ApplicationDbContext _db;
+        private readonly UserManager<ApplicationUser> _userManager;
+        private readonly SignInManager<ApplicationUser> _signInManager;
+
+        public HomeController(UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager, ApplicationDbContext db)
+        {
+            _userManager = userManager;
+            _signInManager = signInManager;
+            _db = db;
+        }
         // GET: /<controller>/
         public IActionResult Index()
         {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult Index(Guest newGuest)
+        {
+            _db.Guest.Add(newGuest);
+            _db.SaveChanges();
             return View();
         }
         public IActionResult Project()
         {
             var projectList = Projects.GetProjects();
             return View(projectList);
+        }
+        public IActionResult About()
+        {
+            return View();
         }
     }
 }

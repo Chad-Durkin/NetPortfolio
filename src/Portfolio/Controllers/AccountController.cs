@@ -23,7 +23,6 @@ namespace Portfolio.Controllers
             _db = db;
         }
 
-
         public IActionResult Index()
         {
             return View();

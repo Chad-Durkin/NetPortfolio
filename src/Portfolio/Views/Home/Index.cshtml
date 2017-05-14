@@ -1,4 +1,22 @@
-﻿@{
+﻿@model Portfolio.Models.Guest
+
+@{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Thank you for checking out my portfolio!</h2>
+<h3>Please Sign In and I can email you promptly if you have any questions or comments!</h3>
+@using (Html.BeginForm())
+{
+    @Html.LabelFor(m => m.Email)
+    @Html.TextBoxFor(m => m.Email)
+
+    @Html.LabelFor(m => m.Name)
+    @Html.TextBoxFor(m => m.Name)
+
+    <h3>Questions and Comments</h3>
+    @Html.TextBoxFor(m => m.Extra)
+
+    <input type="submit" value="Sign In" />
 }
