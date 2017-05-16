@@ -11,12 +11,12 @@
 {
     @Html.LabelFor(m => m.Email)
     @Html.TextBoxFor(m => m.Email)
-
+    <br />
     @Html.LabelFor(m => m.Name)
     @Html.TextBoxFor(m => m.Name)
 
-    <h3>Questions and Comments</h3>
+    <h4>Questions and Comments</h4>
     @Html.TextBoxFor(m => m.Extra)
-
+    <br />
     <input type="submit" value="Sign In" />
 }

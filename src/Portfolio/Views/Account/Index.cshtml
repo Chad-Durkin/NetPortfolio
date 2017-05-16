@@ -5,7 +5,6 @@
 
 @using System.Security.Claims
 
-<hr />
 @if (User.Identity.IsAuthenticated)
 {
 
@@ -18,6 +17,6 @@
 }
 else
 {
-    <p>@Html.ActionLink("Register", "Register")</p>
-    <p>@Html.ActionLink("Log in", "Login")</p>
+    <h3>@Html.ActionLink("Register", "Register")</h3>
+    <h3>@Html.ActionLink("Log in", "Login")</h3>
 }
